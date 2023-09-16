@@ -11,10 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/vayu/device.mk)
 
-# Inherit common p404 configurations
-$(call inherit-product, vendor/404/configs/common.mk)
+# Inherit common reloaded configurations
+$(call inherit-product, vendor/reloaded/configs/common.mk)
 
-PRODUCT_NAME := p404_vayu
+PRODUCT_NAME := vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := Poco X3 Pro
